@@ -7,60 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9628F9E54D879EAFFF7208 /* libPods-XINContinuousLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 270813427B1865F4CC820BDD /* libPods-XINContinuousLocation.a */; };
 		4244EF965EE3178A52F823F7 /* libPods-locationdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F19151CFB2C02557E48D853 /* libPods-locationdemo.a */; };
-		6C4632BA1D2B5C410018E152 /* ACHRLocationOptimize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4632B91D2B5C410018E152 /* ACHRLocationOptimize.m */; };
 		6CB1688B1D13948B00ACB23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1688A1D13948B00ACB23D /* main.m */; };
 		6CB1688E1D13948B00ACB23D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1688D1D13948B00ACB23D /* AppDelegate.m */; };
-		6CB168911D13948B00ACB23D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB168901D13948B00ACB23D /* ViewController.m */; };
-		6CB168941D13948B00ACB23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB168921D13948B00ACB23D /* Main.storyboard */; };
 		6CB168961D13948B00ACB23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB168951D13948B00ACB23D /* Assets.xcassets */; };
-		6CB168991D13948B00ACB23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB168971D13948B00ACB23D /* LaunchScreen.storyboard */; };
 		6CC6106B1D1395D700451B41 /* LOCLocationDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6106A1D1395D700451B41 /* LOCLocationDemoVC.m */; };
-		6CC610741D13D54400451B41 /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6106F1D13D54400451B41 /* BackgroundTaskManager.m */; };
-		6CC610751D13D54400451B41 /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC610711D13D54400451B41 /* LocationShareModel.m */; };
-		6CC610761D13D54400451B41 /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC610731D13D54400451B41 /* LocationTracker.m */; };
 		6CC610781D13D76100451B41 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC610771D13D76100451B41 /* CoreLocation.framework */; };
 		6CC6107A1D13D77400451B41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC610791D13D77400451B41 /* UIKit.framework */; };
 		6CC6107C1D13D77A00451B41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC6107B1D13D77A00451B41 /* CoreGraphics.framework */; };
 		6CC6107E1D13D78C00451B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC6107D1D13D78C00451B41 /* Foundation.framework */; };
-		6CD5CF1D1D23A6F3008B2321 /* LocationConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5CF1C1D23A6F3008B2321 /* LocationConversion.m */; };
-		6CD5CF201D24CFB0008B2321 /* ACHRLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5CF1F1D24CFB0008B2321 /* ACHRLocationModel.m */; };
-		6CF080F01D2610E9007934FF /* ACHRBDLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF080EF1D2610E9007934FF /* ACHRBDLocationModel.m */; };
+		6CEE90131D66B95F0092EF3C /* ACHRBDLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE90061D66B95F0092EF3C /* ACHRBDLocationModel.m */; };
+		6CEE90141D66B95F0092EF3C /* ACHRLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE90081D66B95F0092EF3C /* ACHRLocationModel.m */; };
+		6CEE90151D66B95F0092EF3C /* ACHRLocationOptimize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE900A1D66B95F0092EF3C /* ACHRLocationOptimize.m */; };
+		6CEE90161D66B95F0092EF3C /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE900C1D66B95F0092EF3C /* BackgroundTaskManager.m */; };
+		6CEE90171D66B95F0092EF3C /* LocationConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE900E1D66B95F0092EF3C /* LocationConversion.m */; };
+		6CEE90181D66B95F0092EF3C /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE90101D66B95F0092EF3C /* LocationShareModel.m */; };
+		6CEE90191D66B95F0092EF3C /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE90121D66B95F0092EF3C /* LocationTracker.m */; };
+		6CEE901D1D66BBFB0092EF3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEE901C1D66BBFB0092EF3C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F19151CFB2C02557E48D853 /* libPods-locationdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-locationdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C4632B81D2B5C410018E152 /* ACHRLocationOptimize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHRLocationOptimize.h; sourceTree = "<group>"; };
-		6C4632B91D2B5C410018E152 /* ACHRLocationOptimize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHRLocationOptimize.m; sourceTree = "<group>"; };
-		6CB168861D13948B00ACB23D /* locationdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locationdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		270813427B1865F4CC820BDD /* libPods-XINContinuousLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XINContinuousLocation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAFCA1681B1ED06E276513F /* Pods-XINContinuousLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XINContinuousLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-XINContinuousLocation/Pods-XINContinuousLocation.release.xcconfig"; sourceTree = "<group>"; };
+		63CEBBC4DE228464A1A85252 /* Pods-XINContinuousLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XINContinuousLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XINContinuousLocation/Pods-XINContinuousLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		6CB168861D13948B00ACB23D /* XINContinuousLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XINContinuousLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB1688A1D13948B00ACB23D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CB1688C1D13948B00ACB23D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CB1688D1D13948B00ACB23D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6CB1688F1D13948B00ACB23D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6CB168901D13948B00ACB23D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6CB168931D13948B00ACB23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CB168951D13948B00ACB23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6CB168981D13948B00ACB23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CB1689A1D13948B00ACB23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CC610691D1395D700451B41 /* LOCLocationDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCLocationDemoVC.h; sourceTree = "<group>"; };
 		6CC6106A1D1395D700451B41 /* LOCLocationDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCLocationDemoVC.m; sourceTree = "<group>"; };
-		6CC6106E1D13D54400451B41 /* BackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTaskManager.h; sourceTree = "<group>"; };
-		6CC6106F1D13D54400451B41 /* BackgroundTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTaskManager.m; sourceTree = "<group>"; };
-		6CC610701D13D54400451B41 /* LocationShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareModel.h; sourceTree = "<group>"; };
-		6CC610711D13D54400451B41 /* LocationShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareModel.m; sourceTree = "<group>"; };
-		6CC610721D13D54400451B41 /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
-		6CC610731D13D54400451B41 /* LocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTracker.m; sourceTree = "<group>"; };
 		6CC610771D13D76100451B41 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6CC610791D13D77400451B41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6CC6107B1D13D77A00451B41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6CC6107D1D13D78C00451B41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CD5CF1A1D2228E3008B2321 /* AppMicro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppMicro.h; path = "../../ios-programming/ios-programming/Micro/AppMicro.h"; sourceTree = "<group>"; };
-		6CD5CF1B1D23A6F3008B2321 /* LocationConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationConversion.h; sourceTree = "<group>"; };
-		6CD5CF1C1D23A6F3008B2321 /* LocationConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationConversion.m; sourceTree = "<group>"; };
-		6CD5CF1E1D24CFB0008B2321 /* ACHRLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHRLocationModel.h; sourceTree = "<group>"; };
-		6CD5CF1F1D24CFB0008B2321 /* ACHRLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHRLocationModel.m; sourceTree = "<group>"; };
-		6CF080EE1D2610E9007934FF /* ACHRBDLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHRBDLocationModel.h; sourceTree = "<group>"; };
-		6CF080EF1D2610E9007934FF /* ACHRBDLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHRBDLocationModel.m; sourceTree = "<group>"; };
+		6CEE90051D66B95F0092EF3C /* ACHRBDLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHRBDLocationModel.h; sourceTree = "<group>"; };
+		6CEE90061D66B95F0092EF3C /* ACHRBDLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHRBDLocationModel.m; sourceTree = "<group>"; };
+		6CEE90071D66B95F0092EF3C /* ACHRLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHRLocationModel.h; sourceTree = "<group>"; };
+		6CEE90081D66B95F0092EF3C /* ACHRLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHRLocationModel.m; sourceTree = "<group>"; };
+		6CEE90091D66B95F0092EF3C /* ACHRLocationOptimize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHRLocationOptimize.h; sourceTree = "<group>"; };
+		6CEE900A1D66B95F0092EF3C /* ACHRLocationOptimize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHRLocationOptimize.m; sourceTree = "<group>"; };
+		6CEE900B1D66B95F0092EF3C /* BackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTaskManager.h; sourceTree = "<group>"; };
+		6CEE900C1D66B95F0092EF3C /* BackgroundTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTaskManager.m; sourceTree = "<group>"; };
+		6CEE900D1D66B95F0092EF3C /* LocationConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationConversion.h; sourceTree = "<group>"; };
+		6CEE900E1D66B95F0092EF3C /* LocationConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationConversion.m; sourceTree = "<group>"; };
+		6CEE900F1D66B95F0092EF3C /* LocationShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareModel.h; sourceTree = "<group>"; };
+		6CEE90101D66B95F0092EF3C /* LocationShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareModel.m; sourceTree = "<group>"; };
+		6CEE90111D66B95F0092EF3C /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		6CEE90121D66B95F0092EF3C /* LocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTracker.m; sourceTree = "<group>"; };
+		6CEE901C1D66BBFB0092EF3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		7F51BD69B3211016CCCC86D2 /* Pods-locationdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locationdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-locationdemo/Pods-locationdemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C026076AF55D84AEDA6589A8 /* Pods-locationdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locationdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-locationdemo/Pods-locationdemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +74,7 @@
 				6CC6107A1D13D77400451B41 /* UIKit.framework in Frameworks */,
 				6CC610781D13D76100451B41 /* CoreLocation.framework in Frameworks */,
 				4244EF965EE3178A52F823F7 /* libPods-locationdemo.a in Frameworks */,
+				2D9628F9E54D879EAFFF7208 /* libPods-XINContinuousLocation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +89,7 @@
 				6CC610791D13D77400451B41 /* UIKit.framework */,
 				6CC610771D13D76100451B41 /* CoreLocation.framework */,
 				0F19151CFB2C02557E48D853 /* libPods-locationdemo.a */,
+				270813427B1865F4CC820BDD /* libPods-XINContinuousLocation.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,7 +107,7 @@
 		6CB168871D13948B00ACB23D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CB168861D13948B00ACB23D /* locationdemo.app */,
+				6CB168861D13948B00ACB23D /* XINContinuousLocation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,15 +118,9 @@
 				6CD5CF1A1D2228E3008B2321 /* AppMicro.h */,
 				6CB1688C1D13948B00ACB23D /* AppDelegate.h */,
 				6CB1688D1D13948B00ACB23D /* AppDelegate.m */,
-				6CB1688F1D13948B00ACB23D /* ViewController.h */,
-				6CB168901D13948B00ACB23D /* ViewController.m */,
 				6CC610691D1395D700451B41 /* LOCLocationDemoVC.h */,
 				6CC6106A1D1395D700451B41 /* LOCLocationDemoVC.m */,
-				6CB168921D13948B00ACB23D /* Main.storyboard */,
-				6CB168951D13948B00ACB23D /* Assets.xcassets */,
-				6CB168971D13948B00ACB23D /* LaunchScreen.storyboard */,
-				6CB1689A1D13948B00ACB23D /* Info.plist */,
-				6CC6106C1D13D4C900451B41 /* Tools */,
+				6CEE90041D66B95F0092EF3C /* ContinuousLocation */,
 				6CB168891D13948B00ACB23D /* Supporting Files */,
 			);
 			path = locationdemo;
@@ -134,36 +129,31 @@
 		6CB168891D13948B00ACB23D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6CEE901C1D66BBFB0092EF3C /* Default-568h@2x.png */,
+				6CB168951D13948B00ACB23D /* Assets.xcassets */,
+				6CB1689A1D13948B00ACB23D /* Info.plist */,
 				6CB1688A1D13948B00ACB23D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6CC6106C1D13D4C900451B41 /* Tools */ = {
+		6CEE90041D66B95F0092EF3C /* ContinuousLocation */ = {
 			isa = PBXGroup;
 			children = (
-				6CC6106D1D13D54400451B41 /* ContinuousLocation */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		6CC6106D1D13D54400451B41 /* ContinuousLocation */ = {
-			isa = PBXGroup;
-			children = (
-				6CC6106E1D13D54400451B41 /* BackgroundTaskManager.h */,
-				6CC6106F1D13D54400451B41 /* BackgroundTaskManager.m */,
-				6CC610701D13D54400451B41 /* LocationShareModel.h */,
-				6CC610711D13D54400451B41 /* LocationShareModel.m */,
-				6CC610721D13D54400451B41 /* LocationTracker.h */,
-				6CC610731D13D54400451B41 /* LocationTracker.m */,
-				6CD5CF1B1D23A6F3008B2321 /* LocationConversion.h */,
-				6CD5CF1C1D23A6F3008B2321 /* LocationConversion.m */,
-				6CD5CF1E1D24CFB0008B2321 /* ACHRLocationModel.h */,
-				6CD5CF1F1D24CFB0008B2321 /* ACHRLocationModel.m */,
-				6CF080EE1D2610E9007934FF /* ACHRBDLocationModel.h */,
-				6CF080EF1D2610E9007934FF /* ACHRBDLocationModel.m */,
-				6C4632B81D2B5C410018E152 /* ACHRLocationOptimize.h */,
-				6C4632B91D2B5C410018E152 /* ACHRLocationOptimize.m */,
+				6CEE90051D66B95F0092EF3C /* ACHRBDLocationModel.h */,
+				6CEE90061D66B95F0092EF3C /* ACHRBDLocationModel.m */,
+				6CEE90071D66B95F0092EF3C /* ACHRLocationModel.h */,
+				6CEE90081D66B95F0092EF3C /* ACHRLocationModel.m */,
+				6CEE90091D66B95F0092EF3C /* ACHRLocationOptimize.h */,
+				6CEE900A1D66B95F0092EF3C /* ACHRLocationOptimize.m */,
+				6CEE900B1D66B95F0092EF3C /* BackgroundTaskManager.h */,
+				6CEE900C1D66B95F0092EF3C /* BackgroundTaskManager.m */,
+				6CEE900D1D66B95F0092EF3C /* LocationConversion.h */,
+				6CEE900E1D66B95F0092EF3C /* LocationConversion.m */,
+				6CEE900F1D66B95F0092EF3C /* LocationShareModel.h */,
+				6CEE90101D66B95F0092EF3C /* LocationShareModel.m */,
+				6CEE90111D66B95F0092EF3C /* LocationTracker.h */,
+				6CEE90121D66B95F0092EF3C /* LocationTracker.m */,
 			);
 			path = ContinuousLocation;
 			sourceTree = "<group>";
@@ -173,6 +163,8 @@
 			children = (
 				7F51BD69B3211016CCCC86D2 /* Pods-locationdemo.debug.xcconfig */,
 				C026076AF55D84AEDA6589A8 /* Pods-locationdemo.release.xcconfig */,
+				63CEBBC4DE228464A1A85252 /* Pods-XINContinuousLocation.debug.xcconfig */,
+				3AAFCA1681B1ED06E276513F /* Pods-XINContinuousLocation.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -180,9 +172,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CB168851D13948B00ACB23D /* locationdemo */ = {
+		6CB168851D13948B00ACB23D /* XINContinuousLocation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CB1689D1D13948B00ACB23D /* Build configuration list for PBXNativeTarget "locationdemo" */;
+			buildConfigurationList = 6CB1689D1D13948B00ACB23D /* Build configuration list for PBXNativeTarget "XINContinuousLocation" */;
 			buildPhases = (
 				DE7BECEEF0FAF790C90A71A2 /* [CP] Check Pods Manifest.lock */,
 				6CB168821D13948B00ACB23D /* Sources */,
@@ -195,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = locationdemo;
+			name = XINContinuousLocation;
 			productName = locationdemo;
-			productReference = 6CB168861D13948B00ACB23D /* locationdemo.app */;
+			productReference = 6CB168861D13948B00ACB23D /* XINContinuousLocation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6CB168811D13948B00ACB23D /* Build configuration list for PBXProject "locationdemo" */;
+			buildConfigurationList = 6CB168811D13948B00ACB23D /* Build configuration list for PBXProject "XINContinuousLocation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,7 +225,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CB168851D13948B00ACB23D /* locationdemo */,
+				6CB168851D13948B00ACB23D /* XINContinuousLocation */,
 			);
 		};
 /* End PBXProject section */
@@ -243,9 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CB168991D13948B00ACB23D /* LaunchScreen.storyboard in Resources */,
 				6CB168961D13948B00ACB23D /* Assets.xcassets in Resources */,
-				6CB168941D13948B00ACB23D /* Main.storyboard in Resources */,
+				6CEE901D1D66BBFB0092EF3C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +255,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-locationdemo/Pods-locationdemo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XINContinuousLocation/Pods-XINContinuousLocation-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		28A40BF5E8B6FA4E6BD519EA /* [CP] Copy Pods Resources */ = {
@@ -279,7 +270,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-locationdemo/Pods-locationdemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XINContinuousLocation/Pods-XINContinuousLocation-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE7BECEEF0FAF790C90A71A2 /* [CP] Check Pods Manifest.lock */ = {
@@ -304,40 +295,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CC610741D13D54400451B41 /* BackgroundTaskManager.m in Sources */,
-				6CB168911D13948B00ACB23D /* ViewController.m in Sources */,
-				6CC610751D13D54400451B41 /* LocationShareModel.m in Sources */,
 				6CB1688E1D13948B00ACB23D /* AppDelegate.m in Sources */,
-				6CF080F01D2610E9007934FF /* ACHRBDLocationModel.m in Sources */,
+				6CEE90161D66B95F0092EF3C /* BackgroundTaskManager.m in Sources */,
 				6CB1688B1D13948B00ACB23D /* main.m in Sources */,
-				6CD5CF201D24CFB0008B2321 /* ACHRLocationModel.m in Sources */,
+				6CEE90151D66B95F0092EF3C /* ACHRLocationOptimize.m in Sources */,
+				6CEE90191D66B95F0092EF3C /* LocationTracker.m in Sources */,
+				6CEE90141D66B95F0092EF3C /* ACHRLocationModel.m in Sources */,
+				6CEE90131D66B95F0092EF3C /* ACHRBDLocationModel.m in Sources */,
 				6CC6106B1D1395D700451B41 /* LOCLocationDemoVC.m in Sources */,
-				6CD5CF1D1D23A6F3008B2321 /* LocationConversion.m in Sources */,
-				6C4632BA1D2B5C410018E152 /* ACHRLocationOptimize.m in Sources */,
-				6CC610761D13D54400451B41 /* LocationTracker.m in Sources */,
+				6CEE90171D66B95F0092EF3C /* LocationConversion.m in Sources */,
+				6CEE90181D66B95F0092EF3C /* LocationShareModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6CB168921D13948B00ACB23D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6CB168931D13948B00ACB23D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6CB168971D13948B00ACB23D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6CB168981D13948B00ACB23D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6CB1689B1D13948B00ACB23D /* Debug */ = {
@@ -424,32 +395,30 @@
 		};
 		6CB1689E1D13948B00ACB23D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F51BD69B3211016CCCC86D2 /* Pods-locationdemo.debug.xcconfig */;
+			baseConfigurationReference = 63CEBBC4DE228464A1A85252 /* Pods-XINContinuousLocation.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = locationdemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xin.demo.locationdemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.locationdemo;
+				PRODUCT_NAME = XINContinuousLocation;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		6CB1689F1D13948B00ACB23D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C026076AF55D84AEDA6589A8 /* Pods-locationdemo.release.xcconfig */;
+			baseConfigurationReference = 3AAFCA1681B1ED06E276513F /* Pods-XINContinuousLocation.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = locationdemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xin.demo.locationdemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.locationdemo;
+				PRODUCT_NAME = XINContinuousLocation;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -457,7 +426,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CB168811D13948B00ACB23D /* Build configuration list for PBXProject "locationdemo" */ = {
+		6CB168811D13948B00ACB23D /* Build configuration list for PBXProject "XINContinuousLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CB1689B1D13948B00ACB23D /* Debug */,
@@ -466,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CB1689D1D13948B00ACB23D /* Build configuration list for PBXNativeTarget "locationdemo" */ = {
+		6CB1689D1D13948B00ACB23D /* Build configuration list for PBXNativeTarget "XINContinuousLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CB1689E1D13948B00ACB23D /* Debug */,

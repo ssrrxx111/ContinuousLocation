@@ -37,6 +37,8 @@
 
 
 - (void)initView {
+    self.view.backgroundColor = [UIColor grayColor];
+    
     _buttonStart = [[UIButton alloc] init];
     [_buttonStart setTitle:@"开始" forState:UIControlStateNormal];
     _buttonStart.backgroundColor = [UIColor blueColor];
@@ -78,7 +80,7 @@
     
     [_buttonStart mas_makeConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(@(buttonWidth));
-        make.height.equalTo(@40);
+        make.height.equalTo(@30);
         make.left.equalTo(self.view).offset(5);
         make.top.equalTo(self.view).offset(32);
     }];

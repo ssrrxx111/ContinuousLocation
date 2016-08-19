@@ -56,7 +56,7 @@
     
     
     CLLocationDistance currentDistance = [_currentLocation distanceFromLocation:_lastLocation];
-    CLLocationSpeed    currentSpeed = _currentLocation.speed;
+//    CLLocationSpeed    currentSpeed = _currentLocation.speed;
     
     // 定位时间间隔在指定区域，则上传服务器
     if (currentDistance > _minLocationDistance && currentDistance < _maxLocationDistance) {

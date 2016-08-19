@@ -17,7 +17,7 @@
     
     LOCLocationDemoVC *demovc = [[LOCLocationDemoVC alloc] init];
     self.window.rootViewController = demovc;
-    self.window.backgroundColor = [UIColor grayColor];
+//    self.window.backgroundColor = [UIColor grayColor];
     
    
     [self.window makeKeyAndVisible];

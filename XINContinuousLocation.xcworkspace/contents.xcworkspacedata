@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/myspace/workspace/iosworkspace/locationdemo/XINContinuousLocation.xcodeproj">
+      location = "group:XINContinuousLocation.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
