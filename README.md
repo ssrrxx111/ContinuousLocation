@@ -14,4 +14,52 @@ NSLocationAlwaysUsageDescription ，允许永久使用GPS的描述
 [具体可以参考](http://www.jianshu.com/p/7ccc0860bdbd)
 
 ###三、项目使用
-1. 
+1. 后台持续定位
+<pre><code>
+    self.locationTracker = [LocationTracker sharedInstance];
+    self.locationTracker.restartLocationTimeInterval = 60;
+    self.locationTracker.uploadLocationTimeInterval = 60;       // 这个要大于60秒，不然会有失效的情况
+    [self.locationTracker startLocationTracking];
+    __weak LOCLocationDemoVC *weakSelf = self;
+    self.locationTracker.continuousLocationBlock = ^(ACHRBDLocationResult *locationModel){
+        __strong LOCLocationDemoVC *strongSelf = weakSelf;
+        NSString *locationInfo = [NSString stringWithFormat:@" %@:发送到服务器:\n 省名:%@ 城市:%@ 区县名:%@ 街道名:%@  \n 结构化地址信息:%@ \n poi地址描述:      %@ \n 经纬度:             (%@,%@)\n\n",
+                                  locationModel.locationDate,
+                                  locationModel.addressComponent.province,
+                                  locationModel.addressComponent.city,
+                                  locationModel.addressComponent.district,
+                                  locationModel.addressComponent.street,
+                                  locationModel.formatted_address,
+                                  locationModel.sematic_description,
+                                  locationModel.location.lat,
+                                  locationModel.location.lng];
+        NSLog(@"%@",locationInfo);
+        strongSelf.textViewLocationInfo.text = [locationInfo stringByAppendingString:strongSelf.textViewLocationInfo.text];
+    };
+</code></pre>
+  
+    
+2. 一次定位
+<pre><code>
+self.locationTracker = [LocationTracker sharedInstance];
+    __weak LOCLocationDemoVC *weakSelf = self;
+    [self.locationTracker getOnceLocationInfoWithBackLocation:YES withCompleteBlock:^(ACHRBDLocationResult * locationModel) {
+        __strong LOCLocationDemoVC *strongSelf = weakSelf;
+        NSString *locationInfo = [NSString stringWithFormat:@" %@:一次定位信息:\n 省名:%@ 城市:%@ 区县名:%@ 街道名:%@ \n 结构化地址信息:%@ \n poi地址描述:      %@ \n 经纬度:              (%@,%@)\n\n",
+                                  locationModel.locationDate,
+                                  locationModel.addressComponent.province,
+                                  locationModel.addressComponent.city,
+                                  locationModel.addressComponent.district,
+                                  locationModel.addressComponent.street,
+                                  locationModel.formatted_address,
+                                  locationModel.sematic_description,
+                                  locationModel.location.lat,
+                                  locationModel.location.lng];
+        NSLog(@"%@",locationInfo);
+        strongSelf.textViewLocationInfo.text = [locationInfo stringByAppendingString:strongSelf.textViewLocationInfo.text];
+    }];
+</code></pre>
+    
+    
+    
+
